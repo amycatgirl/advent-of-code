@@ -86,7 +86,7 @@ func main() {
 	cursor := 50
 	password := 0
 
-	out, err := getStepsFromInput("inputs/2025/day-01p1.txt")
+	out, err := getStepsFromInput("inputs/2025/day-01.txt")
 	if err != nil {
 		panic(err)
 	}
