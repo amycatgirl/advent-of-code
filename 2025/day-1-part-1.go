@@ -86,7 +86,7 @@ func main() {
 	cursor := 50
 	password := 0
 
-	out, err := getStepsFromInput("inputs/2025/day-01.txt")
+	out, err := getStepsFromInput("inputs/2025/day-01p1.txt")
 	if err != nil {
 		panic(err)
 	}
@@ -100,7 +100,6 @@ func main() {
 		}
 
 		cursor = wrapAround(99, 0, cursor)
-		fmt.Printf("current cursor val: %d\n", cursor)
 		if cursor == 0 {
 			password += 1
 		}
